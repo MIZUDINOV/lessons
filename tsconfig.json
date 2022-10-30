@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "noImplicitAny": true,
+    "removeComments": true
+  },
+  "files": ["index.ts", "constants.ts"]
+}
