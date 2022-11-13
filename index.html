@@ -2,21 +2,23 @@
 <html lang="ru">
   <head>
     <meta charset="UTF-8" />
-    <title>Git</title>
+    <title>async/await</title>
     <link rel="stylesheet" href="./index.css" />
   </head>
   <body>
-
     <div class="container">
       <div class="content">
-        <input type="text" class="input" />
-        <button class="button">Показать сообщение</button>
-      </div>
-    </div>
+        <input type="text" placeholder="имя пользователя" class="user-search" />
 
-    <div>
-      <input type="text" placeholder="Поиск пользователей" />
-      <button>Поиск</button>
+        <h2 class="user-profile__title">Профиль пользователя</h2>
+
+        <div class="user-profile">
+          <h3 class="user-name"></h3>
+          <span>Описание:</span>
+          <p class="user-bio"></p>
+        </div>
+        <button class="button">Получить профиль</button>
+      </div>
     </div>
 
     <script src="./index.js"></script>

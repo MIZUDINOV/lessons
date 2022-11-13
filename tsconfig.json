@@ -2,7 +2,9 @@
   "compilerOptions": {
     "module": "CommonJS",
     "noImplicitAny": true,
-    "removeComments": true
+    "removeComments": true,
+    "noImplicitReturns": true,
+    "strict": true
   },
   "files": ["index.ts", "constants.ts"]
 }
